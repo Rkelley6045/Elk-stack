@@ -46,7 +46,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box virtual machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
--162.245.132.25
+162.245.132.25
 
 Machines within the network can only be accessed by port 22.
 - The Jump Box VM is the only machine that can access the ELK VM and that is via IP 10.1.0.4
