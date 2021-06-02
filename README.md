@@ -71,7 +71,7 @@ The playbook implements the following tasks:
 - ...
 - ...
 
-![Elk install](https://github.com/Rkelley6045/Elk-stack/blob/main/Ansible/install-elk.yml)
+[Elk install](https://github.com/Rkelley6045/Elk-stack/blob/main/Ansible/install-elk.yml)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
