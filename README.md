@@ -90,7 +90,7 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 - Filebeat collects server logs, amongst other logs it can collect, and forwards them to either Elasticsearch or Logstash for indexing. We can see this informationn in Kibana to take a look at requests made to our server. 
-- Metricbeat collect metrics from the operating system and from services running on the server. From this, via Kibana, we can see important data like CPU usage, memory usage, number of containers running, etc., for further analysis of our running environment.  
+- Metricbeat collects metric from the operating system and from services running on the server. From this, via Kibana, we can see important data like CPU usage, memory usage, number of containers running, etc., for further analysis of our running environment.  
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
