@@ -96,7 +96,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the file to the anisble directory on your VM.
+- Copy the [Filebeats Config](https://github.com/Rkelley6045/Elk-stack/blob/main/BeatsConfigFiles/filebeat-config.yml) to the anisble directory on your VM.
 - Update the hosts file to include webservers 10.0.0.7, 10.0.0.8, 10.0.0.9 and Elk 10.1.0.4.
 ![alt text](https://github.com/Rkelley6045/Elk-stack/blob/main/HostFile/Host%20File.png)
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
