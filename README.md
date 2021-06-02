@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-[filebeat-playbook](https://github.com/Rkelley6045/Elk-stack/blob/main/Ansible/filebeat-playbook.yml)
+[Filebeat-playbook](https://github.com/Rkelley6045/Elk-stack/blob/main/Ansible/filebeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -33,13 +33,13 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-|Name      | Function  | IP Address     | Operating System |
-|----------|-----------|----------------|------------------|
-| Jump Box |  Gateway  | 10.0.0.4       | Linux Ubuntu     |
-| DVWA-VM1 |  VM       | 10.0.0.7       | Linux Ubuntu     |
-| DVWA-VM2 |  VM       | 10.0.0.8       | Linux Ubuntu     |
-| DVWA-VM3 |  VM       | 10.0.0.9       | Linux Ubuntu     |
-| ELK-VM   |  ELKStack | 10.1.0.4       | Linux Ubuntu     |
+|Name      | Function  | IP Address     | Operating System        |
+|----------|-----------|----------------|-------------------------|
+| Jump Box |  Gateway  | 10.0.0.4       | Linux Ubuntu 18.04.5    |
+| DVWA-VM1 |  VM       | 10.0.0.7       | Linux Ubuntu 18.04.5    |
+| DVWA-VM2 |  VM       | 10.0.0.8       | Linux Ubuntu 18.04.5    |
+| DVWA-VM3 |  VM       | 10.0.0.9       | Linux Ubuntu 18.04.5    |
+| ELK-VM   |  ELKStack | 10.1.0.4       | Linux Ubuntu 18.04.5    |
 
 ### Access Policies
 
