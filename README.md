@@ -101,4 +101,4 @@ SSH into the control node and follow the steps below:
 ![alt text](https://github.com/Rkelley6045/Elk-stack/blob/main/HostFile/Host%20File.png)
 - Run the playbook, and navigate to Kibana http://[your.VM.IP]:5601/app/kibana check that the installation worked as expected.
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+
