@@ -89,8 +89,8 @@ We have installed the following Beats on these machines:
 - metricbeat-7.6.1 (amd64)
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat collects 
-- In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- Filebeat collects server logs, amongst other logs it can collect, and forwards them to either Elasticsearch or Logstash for indexing. We can see this informationn in Kibana to take a look at requests made to our server. 
+- Metricbeat collect metrics from the operating system and from services running on the server. From this, via Kibana, we can see important data like CPU usage, memory usage, number of containers running, etc., for further analysis of our running environment.  
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
@@ -100,10 +100,5 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include webservers 10.0.0.7, 10.0.0.8, 10.0.0.9 and Elk 10.1.0.4.
 ![alt text](https://github.com/Rkelley6045/Elk-stack/blob/main/HostFile/Host%20File.png)
 - Run the playbook, and navigate to Kibana http://[your.VM.IP]:5601/app/kibana check that the installation worked as expected.
-
-_TODO: Answer the following questions to fill in the blanks:_
-- Which file is the playbook? Where do you copy it?_
-- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- Which URL do you navigate to in order to check that the ELK server is running?
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
