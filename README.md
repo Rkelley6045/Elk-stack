@@ -98,6 +98,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the file to the anisble directory on your VM.
 - Update the hosts file to include webservers 10.0.0.7, 10.0.0.8, 10.0.0.9 and Elk 10.1.0.4.
+![alt text](https://github.com/Rkelley6045/Elk-stack/blob/main/HostFile/Host%20File.png)
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
