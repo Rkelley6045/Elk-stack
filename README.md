@@ -85,8 +85,8 @@ This ELK server is configured to monitor the following machines:
 - 10.0.0.9
 
 We have installed the following Beats on these machines:
-- filebeat-
-- metricbeat-
+- filebeat-7.6.1 (amd64)
+- metricbeat-7.6.1 (amd64)
 
 These Beats allow us to collect the following information from each machine:
 - 
